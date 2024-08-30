@@ -21,7 +21,18 @@ const QuestionTable = () => {
     html2canvas(element).then((canvas) => {
       const imgData = canvas.toDataURL("image/png");
       const link = document.createElement("a");
-      link.download = "question.png";
+
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      let mm = today.getMonth() + 1; // Months start at 0!
+      let dd = today.getDate();
+
+      if (dd < 10) dd = "0" + dd;
+      if (mm < 10) mm = "0" + mm;
+
+      const formattedToday = dd + "/" + mm + "/" + yyyy;
+
+      link.download = formattedToday + ".png";
       link.href = imgData;
       link.click();
 

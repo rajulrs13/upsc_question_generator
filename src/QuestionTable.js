@@ -30,7 +30,7 @@ const QuestionTable = () => {
       if (dd < 10) dd = "0" + dd;
       if (mm < 10) mm = "0" + mm;
 
-      const formattedToday = dd + "/" + mm + "/" + yyyy;
+      const formattedToday = yyyy + mm + dd;
 
       link.download = formattedToday + ".png";
       link.href = imgData;

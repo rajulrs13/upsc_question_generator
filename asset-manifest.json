@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upsc_question_generator/static/css/main.0461c675.css",
-    "main.js": "/upsc_question_generator/static/js/main.73f2b046.js",
+    "main.js": "/upsc_question_generator/static/js/main.9e8a24d6.js",
     "static/js/453.e82ce171.chunk.js": "/upsc_question_generator/static/js/453.e82ce171.chunk.js",
     "static/media/textured-paper-hd.png": "/upsc_question_generator/static/media/textured-paper-hd.129ca76b13e73e809b02.png",
     "service-worker.js": "/upsc_question_generator/service-worker.js",
     "index.html": "/upsc_question_generator/index.html",
     "main.0461c675.css.map": "/upsc_question_generator/static/css/main.0461c675.css.map",
-    "main.73f2b046.js.map": "/upsc_question_generator/static/js/main.73f2b046.js.map",
+    "main.9e8a24d6.js.map": "/upsc_question_generator/static/js/main.9e8a24d6.js.map",
     "453.e82ce171.chunk.js.map": "/upsc_question_generator/static/js/453.e82ce171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0461c675.css",
-    "static/js/main.73f2b046.js"
+    "static/js/main.9e8a24d6.js"
   ]
 }
